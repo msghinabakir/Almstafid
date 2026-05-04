@@ -1,7 +1,9 @@
-
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Tajawal', sans-serif;
-  background: #f8fafc;
+  background: red;
   color: #222;
   margin: 0;
 }
