@@ -1354,7 +1354,45 @@ body.modal-open {
   }
 
 }
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 
+  .modal-content img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  /* كل سيكشن فيه صورة + نص */
+  .services,
+  .service,
+  .about,
+  .content,
+  .box {
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center;
+    gap: 15px;
+  }
+
+  /* الصور */
+  .services img,
+  .service img,
+  .about img,
+  .content img {
+    width: 100% !important;
+    height: auto;
+  }
+
+  /* النص */
+  .services p,
+  .service p,
+  .about p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
 
 
 
