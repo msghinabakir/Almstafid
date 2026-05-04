@@ -408,12 +408,10 @@ transform: translateY(-8px) ;
 
 .thumb_buy {
   width: 100%;
-   height: auto;   /* 🔥 مهم */
-  max-height: 220px;
-  object-fit: cover; /* 🔥 أهم شي */
-  border-radius: 20px 20px 0 0; /* نفس الكارد */
+  height: 180px;        /* 🔥 حجم ثابت */
+  object-fit: cover;    /* يقص بشكل مرتب */
+  border-radius: 20px 20px 0 0;
   display: block;
-   background: #fff;
 }
 
 .card-info-buy {
@@ -1300,6 +1298,10 @@ body.modal-open {
 /* 🔥 تحسين الموبايل */
 @media (max-width: 768px) {
 
+  .thumb_buy {
+    height: 160px;   /* أصغر على الموبايل */
+  }
+
   .landing-page {
     flex-direction: column;
     padding: 30px 20px;
@@ -1348,6 +1350,7 @@ body.modal-open {
 
   .card {
     width: 100% !important;
+   overflow: hidden !important;
   }
 
 }
