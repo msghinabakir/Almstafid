@@ -1467,5 +1467,36 @@ body.modal-open {
     text-align: center;
     margin-top: 15px;
   }
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+       flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+        flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header-links a {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .sign-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  
   }
 
