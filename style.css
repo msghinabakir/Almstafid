@@ -1353,14 +1353,6 @@ body.modal-open {
    overflow: hidden !important;
   }
 
-}
-  .modal-content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-        align-items: center;
-  }
-
   .modal-content img {
        width: 90%;
     max-width: 300px;
@@ -1424,6 +1416,56 @@ body.modal-open {
     font-size: 16px;
     line-height: 1.6;
   }
+  .full-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
+  .left-side {
+    width: 100%;
+  }
 
+  .main-img {
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto 15px;
+    display: block;
+     height: auto; /* 🔥 يمنع التخريب */
+  }
+
+ .thumbs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* 🔥 مهم */
+  gap: 10px;
+}
+
+  .right-side {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .right-side h2 {
+    font-size: 22px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+
+  .desc {
+    font-size: 14px;
+    line-height: 1.6;
+    word-break: break-word;
+  }
+
+  .whatsapp-btn {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+  }
 
